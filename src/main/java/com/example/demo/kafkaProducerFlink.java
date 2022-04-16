@@ -37,6 +37,7 @@ public class kafkaProducerFlink {
             ds.addSink(producer);
 
             env.execute();
+            System.out.println("git3");
         }
 
 
